@@ -1,0 +1,313 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+
+}
+html{
+    scroll-behavior: smooth;
+}
+.clear {
+    clear: both;
+}
+.fixbox{ 
+    width: 100%;
+    background:  white;
+    box-shadow: 0 5px 10px rgba(98, 97, 97, 0.329);
+    position: fixed;
+    z-index: 999;
+    top: 0;
+}
+.logo{
+    float: left;
+    padding: 15px;
+    margin-left: 50px;
+
+}
+.logo img{
+    width: 150px;
+
+}
+.heading{
+    float: right;
+    margin: 30px 12% 0px 0px;
+}
+.heading h4 {
+    float: left;
+    margin-left: 30px;
+    font-size: 22px;
+    font-weight: normal;
+}
+a {
+    color: black;
+}
+.maindiv{
+    background-image: url(../images/the-town-bg-01.jpg);
+    background-position: center;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin-top: 84px;
+    background-size: cover;
+}
+.maindiv h1{
+    color: white;
+    font-size: 45px;
+    text-align: center;  
+    justify-content: center;
+    padding-top: 225px;
+    padding-bottom: 15px;
+    font-family: 'Noto Sans', sans-serif;
+}
+.arrow{
+    text-align: center;
+}
+.arrow i{
+    font-size: 80px;
+    color: white;
+    border-radius: 50%;
+    margin-top: 40px;
+    margin-bottom: 300px;
+    transition: 0.5s;
+}
+.whiteboard{
+    width: 100%;
+    background-color: white;
+    padding: 86px 0px;
+}
+.content{
+    width: 1396px;
+    margin: 85px auto;
+    display: flex;
+    
+}
+.leftimg{
+    width: 45%;
+}
+
+.rightcontent{
+    width: 55%;
+    padding: 20px 0px; 
+}
+.rightcontent h1{
+    color: #3496d8;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 20px;
+    font-weight: normal;
+}
+.rightcontent p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #8f8f8f;
+    font-size: 22px;
+    line-height: 30px;
+    padding-bottom: 30px;
+    text-align: justify;
+}
+.btn{
+    width: 150px;
+    height: 50px;
+    font-size: 19px;
+    border-radius: 25px;
+    color: white;
+    border: none;
+    background: #3496d8;
+    transition: 0.5s;
+}
+.btn:hover{
+    background: #78b3db;
+}
+.maincont{
+    text-align: center;
+    width: 1396px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.p1{
+    width: 30%;
+    text-align: center;
+}
+.bus{
+    font-size: 50px;
+}
+.bus-headding h2{
+    color: #3496d8;
+    font-size: 28px;
+    padding: 30px 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.bus-p p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #8f8f8f;
+    font-size: 20px;
+    line-height: 30px;
+}
+.our-work{
+    width: 45%;
+    padding: 150px 0 0 0;
+    text-align: center;
+    margin: auto;
+}
+
+.our-work h1{
+    font-size: 40px;
+    font-weight: normal;
+    padding-bottom: 40px;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #3496d8;
+}
+.our-work p{
+    color: #8f8f8f;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 30px;
+    padding-bottom: 40px;
+}
+.whiteboard-img {
+    width: 1396px;
+    display: flex;
+    margin: 20px auto;
+    justify-content: space-between;
+}
+.footer{
+    background-image: url("../images/the-town-bg-02.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+.footer-main{
+    width: 1000px;
+    margin: auto;
+    color: white;
+}
+.footer-main h1{
+    padding-top: 150px;
+    font-size: 45px;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 20px;
+    border-bottom: 2px solid white;
+}
+.border{
+    width: 205px;
+    border: 4px solid white;
+    margin-bottom: 51px;
+} 
+.footer-main p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: justify;
+    line-height: 40px;
+    margin-bottom: 70px
+}
+.leftinfo{
+    width: 50%;
+    margin-bottom: 50px;
+}
+.leftinfo a{
+    color: white;
+    font-size: 25px;
+}
+.leftinfo i{
+    font-size: 35px;
+    padding-right: 25px;
+}
+.leftinfo a:hover{
+    color: #3496d8;
+}
+.rightinfo{
+    width: 35%;
+    float: right;
+    margin-bottom: 30px;
+}
+.rightinfo a{
+    color: white;
+    font-size: 25px;
+}
+.rightinfo a:hover{
+    color: #3496d8;
+}
+.rightinfo i{
+    font-size: 35px;
+    padding-right: 25px;
+}
+.rightinfo input{
+    width: 200px;
+    padding: 10px 15px;
+    border: 1px solid white;
+    background: inherit;
+    border-radius: 5px;
+    margin-right: 25px;
+    color: white;
+    outline: none;
+}
+.rightinfo button{
+    width: 100px;
+    font-size: 16px;
+    padding: 10px 0px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.fa-solid:hover{
+    color: #3496d8 ;
+}
+.footerflex{
+    display: flex;
+}
+.copyright{
+    padding: 70px 0px 5px 0px;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+}
+.boardimg{
+    width: 220px;
+    height: 330px;
+    position: relative;
+}
+.boardimg1{
+    background-image: url("../images/gallery-tn-01.jpg");
+}
+.boardimg2{
+    background-image: url("../images/gallery-tn-02.jpg");
+}
+.boardimg3{
+    background-image: url("../images/gallery-img-05.jpg");
+    background-size: 220px 330px;
+}
+.boardimg4{
+    background-image: url("../images/gallery-tn-04.jpg");
+}
+.boardimg5{
+    background-image: url("../images/gallery-img-06.jpg");
+}
+.init{
+    width: 100%;
+    height: 97%;
+    background-color: #8f8f8f59;
+    transition: 1s;
+    opacity: 0;
+    border-bottom:10px solid #3496d8;
+}
+.init:hover{
+    opacity: 1;
+}
+.init h1{
+    opacity: 0;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    top: 50px;
+    color: white;
+}
+.init:hover h1{
+    opacity: 1;
+    position: relative;
+    top: 150px;
+    transition: 1s;
+}
